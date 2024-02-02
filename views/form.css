@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-color: #e6f7ff;
+    animation: backgroundAnimation 10s infinite alternate;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the form */
+    margin-top: 20px; /* Add some top margin for better separation */
+    padding: 15px;
+    background-color: #ffffff; /* Light gray background color */
+    border-radius: 8px;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-image: url("variantzglobal_logo.jpg"); /* Replace with your company logo URL */
+    }
+    100% {
+        background-image: none;
+    }
+}
